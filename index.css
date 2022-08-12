@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    background: #1b244a;
+
+        
+}
+
+.container {
+    display: flex;
+    background-image: url('elephant.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    justify-content: space-around;
+    background-color: #1b244a;
+    padding-bottom: 200px;
+}
+
+h3 {
+  margin-top: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #eeeeee;
+  margin-bottom: 21px;
+  text-shadow: -2px 2px 4px 
+            rgba(0, 0, 0, 0.5), 
+            2px -2px 0 
+            rgba(255, 255, 255, 0.9);
+
+}
+
+#home-box, #guest-box {
+    background-color: black;
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+    border: pink solid 1px;
+    color: red;
+    
+}
+
+.score {
+  width: 155px;
+  height: 120px;
+  background-color: #080001;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 127px;
+  /* or 141% */
+  text-align: center;
+  margin: 20px;
+  color: #f94f6d;
+  border: 1px solid greenyellow;
+  border-radius: 5px;
+}
+
+.plus-1-point,
+.plus-2-points,
+.plus-3-points {
+  width: 45px;
+  height: 45px;
+  justify-content: space-around;
+  margin: 8px;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 28px;
+  background: #1b244a;
+  color: #9aabd8;
+  border: 1px solid green;
+  border-radius: 5px;
+  text-align: center;
+}
+
